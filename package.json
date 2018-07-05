@@ -1,0 +1,17 @@
+{
+  "name": "com.filipmolcik.plugin.example",
+  "version": "1.0.0",
+  "description": "subscribe for push notifications",
+  "cordova": {
+    "id": "com.filipmolcik.plugin.example",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Filip Molcik",
+  "license": "null"
+}

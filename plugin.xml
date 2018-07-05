@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="com.filipmolcik.plugin.example"
+    version="1.0.0">
+    <name>filipmolcik-push-notifications</name>
+    <description>subscribe for push notifications</description>
+    <license>null</license>
+
+    <js-module src="www/Example.js" name="Example">
+        <clobbers target="Example" />
+    </js-module>
+
+    <platform name="android">
+
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="Example" >
+                <param name="android-package" value="com.filipmolcik.plugin.Example"/>
+            </feature>
+        </config-file>
+
+        <config-file target="AndroidManifest.xml" parent="/*">
+            <uses-permission android:name="android.permission.INTERNET" />
+        </config-file>
+
+        <source-file src="src/android/Example.java" target-dir="src/com/filipmolcik/plugin" />
+    </platform>
+
+</plugin>
