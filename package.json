@@ -1,7 +1,7 @@
 {
   "name": "com.filipmolcik.plugin.example",
   "version": "1.0.0",
-  "description": "subscribe for push notifications",
+  "description": "Example plugin to demonstrate how to call android function from javascript.",
   "cordova": {
     "id": "com.filipmolcik.plugin.example",
     "platforms": [
