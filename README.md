@@ -17,5 +17,5 @@ cordova.exec(function(success) {},                              //success callba
              function(error) {},                                //error callback
              "Example",                                         //class name
              "YOUR_ACTION_NAME_PARAMETER",                      //action name 
-             ["Dog", "Pig", 42, false]);   //arguments
+             ["Dog", "Pig", 42, false]);                        //args array
 ```
